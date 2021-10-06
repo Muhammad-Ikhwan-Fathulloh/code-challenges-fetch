@@ -1,0 +1,16 @@
+Soal 4
+What is wrong with the following code?
+
+async function getData() {
+  try {
+    let response = await fetch('https://api-to-call.com/endpoint', 'POST', JSON.stringify({id: 200}), 'json');
+    let jsonResponse = await response.json();
+    return jsonResponse;
+  } catch (error) {
+    console.log(error);
+  }
+}
+Jawaban 4
+
+Kode ini akan menerima response sama seperti no 3, bedanya deklarasi method, body dan type saja
+jika berhasil maka akan mengembalikan response

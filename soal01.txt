@@ -1,0 +1,14 @@
+Soal 1
+Which of the following is NOT used to create a request using fetch() and explain why?
+
+A. .this()
+
+B. .then()
+
+C. .json()
+
+D. JSON.stringify()
+
+Jawaban 1
+
+A. .this()

@@ -1,0 +1,23 @@
+Soal 3
+What is wrong with the following code?
+
+async function getData() {
+  try {
+    let response = await fetch('https://api-to-call.com/endpoint', { 
+      method: 'POST', 
+      body: JSON.stringify({id: 200}), 
+      dataType: 'json'
+  });
+  let jsonResponse = await JSON.stringify(response);
+  return jsonResponse;
+  } catch (error) {
+    console.log(error);
+  }
+}
+Jawaban 3
+
+kode tersebut akan menerima response dari url https://api-to-call.com/endpoint, 
+dimana dideklarasikan juga method post berarti mengirim data, dimana data berupa 
+json dengan key id.
+
+jika berhasil maka akan menerima response, jika gagal akan menampilkan error

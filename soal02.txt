@@ -1,0 +1,14 @@
+Soal 2
+A Promise is a(n)
+
+A. object
+
+B. method
+
+C. state
+
+D. function
+
+Jawaban 2
+
+B. method
